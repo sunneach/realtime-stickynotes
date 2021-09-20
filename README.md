@@ -8,7 +8,7 @@ Pre-requisites:
   as the StickyNotes, e.g.:
 
   - path_to_repos/mochiweb
-  - path_to_repos/stickynotes_mw_ws
+  - path_to_repos/stickynotes
 
 To compile, use the Emakefile:
 
