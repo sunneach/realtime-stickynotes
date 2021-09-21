@@ -10,7 +10,12 @@ Pre-requisites:
   - path_to_repos/mochiweb
   - path_to_repos/stickynotes
 
-To compile, use the Emakefile:
+Make sure the folders exist:
+
+        path_to_repos/mochiweb/ebin
+        path_to_repos/stickynotes/ebin
+        
+To compile, use the Emakefile. In the stickynotes folder:
 
         erl -make
         
