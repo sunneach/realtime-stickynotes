@@ -18,6 +18,11 @@ To run it:
 
         erl -pa ebin -pa ../mochiweb/ebin -s websocket
 
+On Windows, you can also use the 
+
+    makeit.bat
+    launch.bat
+
 
 then navigate your browser to http://localhost:5001.
 
