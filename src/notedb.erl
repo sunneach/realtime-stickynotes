@@ -26,7 +26,7 @@
 -define(ID_MISSING,false).
 
 start()->
-    IsDBStoragePresent = filelib:is_file(db_storage_file),
+    IsDBStoragePresent = filelib:is_file(db_storage_file()),
     Base = init_base(IsDBStoragePresent),
     (fun() ->
     Pid = spawn(?MODULE,loop,[Base]),
