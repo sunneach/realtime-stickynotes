@@ -5,7 +5,7 @@ Pre-requisites:
 
 - Erlang OTP, (seen it working on OTP 24, with Google Chrome)
 - https://github.com/mochi/mochiweb and 
-- https://github.com/suneach/jQuery-pure-libs 
+- https://github.com/sunneach/jQuery-pure-libs 
   are downloaded into the same location as the StickyNotes, e.g.:
 
   - path_to_repos/mochiweb
