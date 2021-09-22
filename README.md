@@ -1,36 +1,27 @@
-This is the implementation of websockets,
-using mochiweb: https://github.com/mochi/mochiweb
+# stickynotes
 
-Pre-requisites:
+![InitialState](https://user-images.githubusercontent.com/96718/134396639-3bb8de57-2465-45a0-b4e4-01aba42f334b.JPG)
+
+This is the implementation using the websockets with mochiweb: https://github.com/mochi/mochiweb
+
+## Pre-requisites:
 
 - Erlang OTP, (seen it working on OTP 24, with Google Chrome)
-- https://github.com/mochi/mochiweb and 
-- https://github.com/sunneach/jQuery-pure-libs 
-  are downloaded into the same location as the StickyNotes, e.g.:
 
-  - path_to_repos/mochiweb
-  - path_to_repos/jQuery-pure-libs
-  - path_to_repos/stickynotes
+## steps to make it work
 
-Make sure the folders exist:
+```batch
+mkdir notes
+cd notes
+git clone git clone git@github.com:sunneach/stickynotes.git
+git clone git@github.com:suneach/jQuery-pure-libs.git
+git clone git@github.com:mochi/mochiweb.git
+cd stickynotes
+makeit.bat
+launch.bat
+```
+Done.
 
-        path_to_repos/mochiweb/ebin
-        path_to_repos/stickynotes/ebin
-        
-To compile, use the Emakefile. In the stickynotes folder:
-
-        erl -make
-        
-To run it:
-
-        erl -pa ebin -pa ../mochiweb/ebin -s websocket
-
-On Windows, you can also use the 
-
-    makeit.bat
-    launch.bat
-
-
-then navigate your browser to http://localhost:5001.
+visit the http://localhost:5001.
 
 
