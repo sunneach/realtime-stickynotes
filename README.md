@@ -2,7 +2,9 @@
 
 ![InitialState](https://user-images.githubusercontent.com/96718/134396639-3bb8de57-2465-45a0-b4e4-01aba42f334b.JPG)
 
-This is the implementation using the websockets with mochiweb: https://github.com/mochi/mochiweb
+If you connect several clients - the changes made by one of them will be immediately pushed to all others.
+
+This is the implementation using the websockets with *mochiweb*: https://github.com/mochi/mochiweb
 
 ## Pre-requisites:
 
