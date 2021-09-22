@@ -4,10 +4,12 @@ using mochiweb: https://github.com/mochi/mochiweb
 Pre-requisites:
 
 - Erlang OTP, (seen it working on OTP 24, with Google Chrome)
-- mochiweb is downloaded into the same location 
-  as the StickyNotes, e.g.:
+- https://github.com/mochi/mochiweb and 
+- https://github.com/suneach/jQuery-pure-libs 
+  are downloaded into the same location as the StickyNotes, e.g.:
 
   - path_to_repos/mochiweb
+  - path_to_repos/jQuery-pure-libs
   - path_to_repos/stickynotes
 
 Make sure the folders exist:
