@@ -11,7 +11,18 @@ This is the implementation using the websockets with *mochiweb*: https://github.
 - Erlang OTP, (seen it working on OTP 24, with Google Chrome)
 
 ## steps to make it work
-
+### Linux
+```shell
+mkdir notes
+cd notes
+git clone git clone git@github.com:sunneach/stickynotes.git
+git clone git@github.com:suneach/jQuery-pure-libs.git
+git clone git@github.com:mochi/mochiweb.git
+cd stickynotes
+~/makeit.sh
+~/launch.sh
+```
+### Windows
 ```batch
 mkdir notes
 cd notes
