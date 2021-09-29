@@ -4,7 +4,7 @@
 
 If you connect several clients - the changes made by one of them will be immediately pushed to all others.
 
-This implementation uses the websockets with *mochiweb*: https://github.com/mochi/mochiweb
+This implementation uses websockets with *mochiweb*: https://github.com/mochi/mochiweb
 
 ## Pre-requisites:
 
