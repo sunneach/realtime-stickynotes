@@ -1,4 +1,4 @@
-# stickynotes
+# realtime-stickynotes
 
 ![InitialState](https://user-images.githubusercontent.com/96718/134396639-3bb8de57-2465-45a0-b4e4-01aba42f334b.JPG)
 
