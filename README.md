@@ -1,7 +1,5 @@
 # realtime-stickynotes
-
-[<img src="https://user-images.githubusercontent.com/96718/135454719-581051a2-1b79-49d9-b505-25d733d901da.JPG" width ="400" height="400">](https://vimeo.com/618870678)
-
+<img src="https://user-images.githubusercontent.com/96718/135462272-81d533b6-cfa8-4a01-bf4f-b0ce354c64fc.gif" width="400" height="400">
 
 If you connect several clients - the changes made by one of them will be immediately pushed to all others.
 
