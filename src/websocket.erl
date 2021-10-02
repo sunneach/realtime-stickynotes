@@ -37,23 +37,7 @@ start() ->
 
 check_database() ->
     notedb:start().
-%    mnesia:start(),
-%    IsDBCreated = is_db_created(),
-%    ensure_created(IsDBCreated).
-    
-%is_db_created() ->
-%    stickydb:check().
 
-%ensure_created({atomic, ok}) -> 
-%%    io:format("re-setting DB~n"),
-%    stickydb:reset();
-%ensure_created({aborted,_}) -> 
-%    io:format("DB already exists~n").
-
-%% @doc start_link launches
-%% the Mochiweb web server, providing a callback
-%% routine. 
-%%
 start_link() ->
     client_keeper:start(),
     io:format("~p: Listening at http://127.0.0.1:5001/~n",[self()]),
